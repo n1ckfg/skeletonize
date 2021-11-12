@@ -18,7 +18,7 @@ skel = skeletonize(speed_power=1.2, Euler_step_size=0.5, depth_th=2, length_th=N
 
 #bw_2d = np.load("./examples/bw_2d.npy")
 
-bv = read_binvox("./examples/input_001_resample_fake.binvox")
+bv = read_binvox("./examples/input_002_resample_fake.binvox")
 
 sk = skel.skeleton(bv.data)
 
